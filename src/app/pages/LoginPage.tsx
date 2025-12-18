@@ -6,6 +6,7 @@ import { Input } from '../components/ui/input';
 import { Label } from '../components/ui/label';
 import { Checkbox } from '../components/ui/checkbox';
 import { Heart, Mail, Lock } from 'lucide-react';
+import logo from '../components/ui/logo.png'
 
 export function LoginPage() {
   const [formData, setFormData] = useState({
@@ -27,8 +28,8 @@ export function LoginPage() {
         {/* Logo */}
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex items-center gap-2 mb-2">
-            <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center">
-              <Heart className="w-7 h-7 text-primary-foreground" />
+            <div className="w-10 h-10 flex items-center justify-center">
+              <img src={logo} alt="Website-Logo" className="w-10 h-10"></img>
             </div>
             <span className="text-3xl font-semibold text-foreground">Theramint</span>
           </Link>

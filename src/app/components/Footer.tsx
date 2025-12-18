@@ -1,5 +1,6 @@
 import { Link } from 'react-router';
 import { Heart, Mail, Phone, MapPin } from 'lucide-react';
+import logo from '../components/ui/logo.png';
 
 export function Footer() {
   return (
@@ -9,8 +10,8 @@ export function Footer() {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <Heart className="w-6 h-6 text-primary-foreground" />
+              <div className="w-10 h-10 flex items-center justify-center">
+                <img src={logo} alt="Website-Logo" className="w-10 h-10"></img>
               </div>
               <span className="text-xl font-semibold text-foreground">Theramint</span>
             </div>
@@ -65,15 +66,15 @@ export function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <Phone className="w-4 h-4 mt-0.5 text-primary flex-shrink-0" />
-                <span>(555) 123-4567</span>
+                <span>(+91) 98755 35211</span>
               </li>
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <Mail className="w-4 h-4 mt-0.5 text-primary flex-shrink-0" />
-                <span>hello@theramint.com</span>
+                <span>contact@theramint.com</span>
               </li>
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <MapPin className="w-4 h-4 mt-0.5 text-primary flex-shrink-0" />
-                <span>123 Wellness Street<br />San Francisco, CA 94102</span>
+                <span>123 Wellness Street<br />Kolkata, WB</span>
               </li>
             </ul>
           </div>

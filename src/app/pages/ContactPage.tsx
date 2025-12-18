@@ -87,7 +87,7 @@ export function ContactPage() {
                     </div>
                     <div>
                       <p className="font-medium text-foreground">Phone</p>
-                      <p className="text-sm text-muted-foreground">(555) 123-4567</p>
+                      <p className="text-sm text-muted-foreground">(+91) 98755 35211</p>
                     </div>
                   </div>
 
@@ -97,7 +97,7 @@ export function ContactPage() {
                     </div>
                     <div>
                       <p className="font-medium text-foreground">Email</p>
-                      <p className="text-sm text-muted-foreground">hello@theramint.com</p>
+                      <p className="text-sm text-muted-foreground">contact@theramint.com</p>
                     </div>
                   </div>
 
@@ -109,7 +109,7 @@ export function ContactPage() {
                       <p className="font-medium text-foreground">Address</p>
                       <p className="text-sm text-muted-foreground">
                         123 Wellness Street<br />
-                        San Francisco, CA 94102
+                        Kolkata, WB
                       </p>
                     </div>
                   </div>
